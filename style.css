@@ -1,0 +1,82 @@
+.navbar {
+    overflow: hidden;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .text {
+      margin-top: 75px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+label {
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+#bouton {
+    margin: 25px;
+}
+
+
+#philippe {
+    display: flex;
+    justify-content: center;
+}
+
+
+#logout:hover {
+    background-color: red;
+}
+
+.mul {
+    margin-top: 50px;
+
+    width: 250px;
+    height: auto;
+}
+
+body {
+    background-color: #333;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nom {
+    color: antiquewhite;
+}
